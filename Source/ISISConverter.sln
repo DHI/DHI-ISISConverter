@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISISConverterEngine", "ISISconverterEngine\ISISConverterEngine.csproj", "{45FDCB37-C3A2-4AF8-BF95-01EDCB4E9163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISISConverterUI", "ISISConverterUI\ISISConverterUI.csproj", "{05C4FDA7-3471-46C0-A144-35C8689BEBF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45FDCB37-C3A2-4AF8-BF95-01EDCB4E9163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FDCB37-C3A2-4AF8-BF95-01EDCB4E9163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FDCB37-C3A2-4AF8-BF95-01EDCB4E9163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FDCB37-C3A2-4AF8-BF95-01EDCB4E9163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C4FDA7-3471-46C0-A144-35C8689BEBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C4FDA7-3471-46C0-A144-35C8689BEBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C4FDA7-3471-46C0-A144-35C8689BEBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C4FDA7-3471-46C0-A144-35C8689BEBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9205F248-7889-4C66-8F04-C1AAFA292C67}
+	EndGlobalSection
+EndGlobal

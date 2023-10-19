@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ISISConverterUI</RootNamespace>
+    <AssemblyName>ISISConverter</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UserSecretsId>3855849f-35c7-4010-b164-e72092b003b3</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ISISConverterUI.csproj.vspscc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISISconverterEngine\ISISConverterEngine.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+</Project>
